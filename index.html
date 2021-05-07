@@ -72,7 +72,7 @@
 
         function removeTransition(e) {
             if (e.propertyName !== 'transform') return; //skip if it's not a transform
-            this.classList.remove('playing');
+            this.classList.remove('playing'); //remove the new class from the keys after pressing
         }
 
         const keys = document.querySelectorAll('.key');
